@@ -79,7 +79,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #1e1e1e;
+  background-color: #171a21;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -123,13 +123,12 @@ Global Styles
 */
 html,
 body {
-  background: #1f2122;
+  background: #171a21;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
   border-radius: 23px;
 }
 
@@ -349,10 +348,9 @@ Header Style
 }
 
 .header-area {
-  background-color: transparent;
+  background-color: #212630;
   position: absolute;
   height: 70px;
-  top: 15px;
   left: 0;
   right: 0;
   z-index: 100;
@@ -775,9 +773,10 @@ Banner Style
   background-image: url(https://media.tenor.com/7OnAu_B-Y0MAAAAC/high-isle-elder-scrolls-online.gif);
   background-position: center center;
   background-size: cover;
-  min-height: 380px;
+  min-height: 315px;
+  height:315px;
   border-radius: 0.625rem;
-  padding: 80px 60px;
+  padding: 15px 60px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -806,16 +805,12 @@ Most Popular Style
 */
 
 .most-popular {
-  margin-top: 60px;
-  padding: 30px;
-  background-color: #1f2122;
-  border-radius: 23px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top:20px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
-  padding: 30px 15px;
-  border-radius: 23px;
   margin-bottom: 30px;
 }
 
@@ -824,6 +819,7 @@ Most Popular Style
   border-radius: 0px;
   background-color: transparent;
   margin-bottom: 0px;
+  
 }
 
 .most-popular .item img {
